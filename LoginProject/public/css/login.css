@@ -1,0 +1,249 @@
+body {
+  background-image: url(https://i.pinimg.com/564x/49/f1/20/49f120d653214f38a55dd423254925e7.jpg);
+  background-color: #cccccc;
+  max-height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+  margin: 0;
+  overflow: hidden;
+  
+}
+
+
+
+
+body.scrollable {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+body.noscroll {
+  overflow: hidden;
+}
+
+ #btnLogin, #btnRegister{
+    width: 45%;
+    font-size: 13.5pt;
+    margin: 0 auto;
+    border-radius: 50px;
+    display: block;
+    background-image: linear-gradient(rgb(245, 107, 208), rgb(249, 192, 106));
+    
+
+  }
+   p{
+    font-size: 12px; margin-bottom: 0px; 
+    font-family: 'Inter', sans-serif;
+    color: #23211F;
+    text-align: center;
+   }
+  
+   
+  .panel-primary {
+    background-image: url(../img/BG1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: rgb(207, 61, 132);
+    border-radius: 50px;
+    /* border: 2px solid #b0a8a7; */
+    color: #ffffff;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / .6), 0 4px 6px -4px rgb(0 0 0 / .6);
+
+    
+  }
+ 
+  .panel-primary>.panel-heading {
+    /*background: rgba(100,100,900,.75);;*/
+    /* fallback for old browsers */
+    font-family: lucida sans;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+  }
+ 
+  .panel-heading {
+    padding: 30px 2px;
+    max-width: 70%;
+    margin: 0 auto;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+ 
+  .panel-heading1 {
+    border-color: rgb(207, 61, 132);
+    background: rgb(207, 61, 132);
+    border-color: rgb(207, 61, 132);
+  }
+ 
+  .btn-primary,
+  .btn-primary:focus,
+  .btn-primary:active,
+  .btnSignUp {
+    /*background: rgba(100,100,900,.75);*/
+    font-size: 12pt;
+    font-family: lucida sans;
+    background: rgb(207, 61, 132);
+    border-color: rgb(253, 134, 192);
+    color: #ffffff;
+  }
+ 
+  .btn.btn-primary:hover {
+    background-color: rgb(248, 142, 193);
+    color: white;
+    border-color: rgb(207, 61, 132);
+  }
+ 
+  .btn.btnSignUp:hover {
+    background-color: rgb(207, 61, 132);
+    color: white;
+    border-color: rgb(207, 61, 132);
+  }
+ 
+  .btn.btn-primary1 {
+    font-size: 10.5pt;
+    color: #ffffff;
+    background-color: rgb(207, 61, 132);
+    font-family: lucida sans;
+    border-color: rgb(207, 61, 132);
+  }
+ 
+  .btn.btn-default1 {
+    font-size: 10.5pt;
+    color: #ffffff;
+    background-color: rgb(207, 61, 132);
+    font-family: lucida sans;
+    border-color: rgb(207, 61, 132);
+  }
+ 
+  .btn.btn-primary1:hover {
+    font-size: 10pt;
+    color: rgb(207, 61, 132);
+    background-color: #ffffff;
+    font-family: lucida sans;
+    border-color: rgb(207, 61, 132);
+    font-weight: bold;
+  }
+ 
+  .btn.btn-default1:hover {
+    font-size: 10pt;
+    color: rgb(207, 61, 132);
+    background-color: #ffffff;
+    font-family: lucida sans;
+    border-color: rgb(207, 61, 132);
+    font-weight: bold;
+  }
+ 
+  body {
+    background-color:rgb(255, 255, 255);
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+ 
+  a {
+    font-family: lucida sans;
+    font-style: normal;
+    font-size: 10.5pt;
+    color: rgb(207, 61, 132);
+  }
+ 
+  a:hover {
+    font-family: lucida sans;
+    font-style: normal;
+    font-size: 10.5pt;
+    color: rgb(207, 61, 132);
+  }
+ 
+  .input-group-addon {
+    padding: 8px 8px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: white;
+    text-align: center;
+    background-color: rgb(241, 208, 100);
+    border: 1px solid rgb(139, 139, 138);
+    border-radius: 20px;
+  }
+ 
+  .input-group {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 8px;
+    font-size: 0.9em;
+    border-radius: 50px;
+  }
+ 
+  .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #23211F;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  }
+
+
+ 
+
+  /* Extra small devices (phones, 600px and down) */
+ 
+  @media only screen and (max-width: 600px) {
+    .btn.btn-primary1,
+    .btn.btn-default1 {
+      background-color: transparent;
+      border-color: transparent;
+      color: #670000;
+      font-weight: bold;
+    }
+  }
+ 
+  @media only screen and (max-width: 900px) {
+    .btn.btn-primary1,
+    .btn.btn-default1 {
+      background-color: transparent;
+      border-color: transparent;
+      color: #670000;
+      font-weight: bold;
+    }}
+
+ /* WebKit Browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 4px; /* Reduced width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Make the track transparent */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(136, 136, 136, 0.5); /* Light grey color with transparency for the handle */
+  border-radius: 10px; /* Rounded edges for the scrollbar handle */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(136, 136, 136, 0.7); /* Slightly darker when hovered */
+}
+
+#login-panel {
+    margin: 0 auto;/* Show the login div by default */
+    overflow: hidden;
+}
+  .askadmin {
+    color: black;
+  }
